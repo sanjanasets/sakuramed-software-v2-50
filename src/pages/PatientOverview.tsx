@@ -49,7 +49,7 @@ const PatientOverview = () => {
   const handleStartExam = () => {
     if (selectedExamTypes.length > 0) {
       console.log("Starting exam with types:", selectedExamTypes);
-      // Navigate to exam workflow (not implemented yet)
+      navigate("/live-exam");
       setIsExamModalOpen(false);
     }
   };
