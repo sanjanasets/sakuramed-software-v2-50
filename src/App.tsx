@@ -30,7 +30,6 @@ const App = () => (
             <div className="flex-1 flex flex-col">
               <header className="h-12 flex items-center border-b bg-white px-4">
                 <SidebarTrigger className="mr-4" />
-                <h1 className="text-lg font-semibold text-gray-900">SakuraMed Clinical Workflow</h1>
               </header>
               
               <main className="flex-1 overflow-auto">
